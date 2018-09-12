@@ -6,7 +6,7 @@ import {Goal} from './goal';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  
+
     goals = [
         new Goal(1,'Watch Finding Nemo','Find an online version and watch merlin find his son',new Date(2018,3,14) ),
         new Goal(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2018,6,9) ),
